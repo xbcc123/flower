@@ -169,7 +169,7 @@ let step = () => {
             writeIntoStyle = false
             tempString += "}\n"
             styleString += tempString;
-            console.log(tempString)
+            // console.log(tempString)
         }
         if (writeIntoStyle === true) {
             tempString += originalString[n];

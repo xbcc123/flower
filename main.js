@@ -118,7 +118,7 @@ let originalString = `先画花的茎
 .dead-petals>div:first-child {
     background: var(--medium-pink);
     left: 35%;
-    transition: transform 8s, top 8s;
+    transition: transform .1s, top .1s;
     transform: rotate(-45deg);
     top: 90%;
 }

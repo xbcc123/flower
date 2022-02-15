@@ -11,7 +11,7 @@ let originalString = `先画花的茎
     left: 50%;
     margin-left: -3px;
     border-radius: 0 0 3px 3px;
-    transition: height .2s;
+    transition: height .1s;
 }
 .stem {
   height: 200px;
@@ -49,7 +49,7 @@ let originalString = `先画花的茎
     transform: rotate(-20deg);
     top: 55%;
     left: 28%;
-    transition: background .2s, box-shadow .2s .2s;
+    transition: background .1s, box-shadow .1s .1s;
     background: var(--dark-green);
     box-shadow: inset 5px 5px var(--light-green);
 }
@@ -58,7 +58,7 @@ let originalString = `先画花的茎
     transform: rotate(20deg);
     top: 45%;
     right: 28%;
-    transition: background .2s, box-shadow .2s .2s;
+    transition: background .1s, box-shadow .1s .1s;
     background: var(--dark-green);
     box-shadow: inset -5px 5px var(--light-green);
 }
@@ -68,7 +68,7 @@ let originalString = `先画花的茎
     height: 100px;
     width: 50px;
     border-radius: 10px 10px 20px 20px;
-    transition: background .2s;
+    transition: background .1s;
     background: var(--light-pink);
     top: 15%;
     left: 50%;
@@ -82,7 +82,7 @@ let originalString = `先画花的茎
 .petals>div:nth-child(2) {
     transform-origin: bottom right;
     border-radius: 0 35px 0 35px;
-    transition: background .2s, transform .2s .2s;
+    transition: background .1s, transform .1s .1s;
     background: var(--medium-pink);
     transform: rotate(-6deg);
     top: 15%;
@@ -91,7 +91,7 @@ let originalString = `先画花的茎
 .petals>div:nth-child(3) {
     transform-origin: bottom left;
     border-radius: 35px 0 35px 0;
-    transition: background .2s, transform .2s .2s;
+    transition: background .1s, transform .1s .1s;
     background: var(--medium-pink);
     transform: rotate(6deg);
     top: 15%;
@@ -100,7 +100,7 @@ let originalString = `先画花的茎
 .petals>div:nth-child(4) {
     transform-origin: bottom right;
     border-radius: 0 35px 0 35px;
-    transition: background .2s, transform .2s .2s;
+    transition: background .1s, transform .1s .1s;
     background: var(--dark-pink);
     transform: rotate(-18deg);
     top: 15%;
@@ -109,7 +109,7 @@ let originalString = `先画花的茎
 .petals>div:nth-child(5) {
     transform-origin: bottom left;
     border-radius: 35px 0 35px 0;
-    transition: background .2s, transform .2s .2s;
+    transition: background .1s, transform .1s .1s;
     background: var(--dark-pink);
     transform: rotate(18deg);
     top: 15%;
@@ -118,7 +118,7 @@ let originalString = `先画花的茎
 .dead-petals>div:first-child {
     background: var(--medium-pink);
     left: 35%;
-    transition: transform 8s, top 8s;
+    transition: transform .1s, top .1s;
     transform: rotate(-45deg);
     top: 90%;
 }
